@@ -1,0 +1,109 @@
+.header-menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 320px 0 320px;
+}
+.header img {
+  width: 100%;
+}
+
+.header-list ul li {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  list-style: none;
+  padding: 10px;
+  text-decoration: none;
+  font: 700 20px Mulish;
+}
+
+.header-list ul li:hover {
+  border: 3px solid #57D272;
+}
+
+.header-button button {
+  background-color: #000;
+  padding: 10px 25px 10px 25px;
+  border-radius: 77px;
+  gap: 10px;
+  font: 18px Mulish;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: 700;
+}
+
+.home {
+  background-color: black;
+}
+.home img {
+  width: 100%;
+  display: block;
+  margin-left: 67px;
+}
+
+.home-txt {
+  font-size: 35px;
+  font-weight: 400;
+  color: white;
+}
+.home-txt button {
+  border-color: rgb(70, 244, 219);
+  background: black;
+  padding: 10px 25px 10px 25px;
+  border-radius: 77px;
+  gap: 10px;
+  font: 18px Mulish;
+  text-decoration: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.home-txt button:hover {
+  background: rgb(70, 244, 219);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(70, 244, 219)), to(rgb(87, 210, 114)));
+  background: linear-gradient(180deg, rgb(70, 244, 219) 0%, rgb(87, 210, 114) 100%);
+  color: rgb(0, 0, 0);
+}
+
+.home-list {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 0 0 320px;
+  padding: 0;
+}
+.home-list h1 {
+  font-size: 70px;
+}
+
+.home-list h1 {
+  font-size: 60px;
+  font-weight: 400;
+  font-family: Russo One;
+}

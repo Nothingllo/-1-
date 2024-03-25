@@ -1,0 +1,68 @@
+.newstic {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    
+
+    h1 {
+        @extend %text-h1;
+        margin-left: 10px;
+    }
+
+    .newstic-body {
+        margin: 0 100px;
+
+        .newstic-body_name {
+            display: inline-flex;
+            justify-content: start;
+            align-items: center;
+            margin: 30px 0;
+        }
+
+        .newstic-body_stics {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;   
+        }
+
+        .newstic-body_buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 0;
+            gap: 15px;
+            button {
+                font-family: Mulish;
+                color: white;
+                border: 5px solid #D13130;
+                gap: 10px;
+                border-radius: 40px;
+                padding: 15px 44px 15px 44px;
+                background-color: black;
+                font-weight: 700;
+                font-size: 20px;
+            }
+    
+            button:hover {
+                background-color: #D13130;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1120px) {
+    .newstic {
+        .newstic-body {
+            margin: 0 80px;
+        }
+
+        .newstic-body_stics {
+            img {
+                width: 30%;
+            }
+        }
+        
+    }
+
+}

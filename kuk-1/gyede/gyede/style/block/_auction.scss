@@ -1,0 +1,189 @@
+.auction {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px 0 100px;
+
+    img {
+        width: 50%;
+    }
+
+    h1 {
+        @extend %text-h1;
+        
+    }  
+
+    .auction-live {
+        display: inline-flex;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    h2 {
+        @extend %text-h2;
+        font-size: 16px;
+        border: 2px solid red;
+        gap: 10px;
+        border-radius: 50px;
+        padding: 5px 15px 5px 15px;
+        color: red;
+        margin-left: 15px ;
+    }
+
+    h4 {
+        font-family: Mulish;
+        font-size: 48px;
+        font-weight: 400;
+    }
+}
+
+
+
+.auction-body {
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    img {
+        margin-right: 40px;
+        width: 40%;
+    }
+}
+
+.auction-body_text {
+
+    .auction-body_text_name {
+        display: inline-flex;
+        align-items: center;
+        justify-content: start;
+        border: 1px solid #EDEDF2;
+        background-color: #EDEDF2;
+        gap: 10px;
+        border-radius: 23px;
+        padding: 11px 16px 11px 16px;
+        img {
+            width: 80%;
+        }
+        h3 {
+            @extend %text-h2;
+            font-size: 20px;
+        }
+    }
+
+    .auction-body_text_stavka-time {
+        display: inline-flex;
+        align-items: stretch;
+        gap: 15px;
+        margin-bottom: 25px;
+
+        .auction-body_text_stavka {
+            border: 1px solid #EDEDF2;
+            background-color: #EDEDF2;
+            border-radius: 40px;
+            align-items: center;
+            padding: 25px;
+
+            width: 296px;
+
+            h1 {
+                @extend %text-h2;
+                font-size: 20px;
+                margin: 0;
+            }
+            h3 {
+                @extend %text-h2;
+                font-size: 48px;
+                margin: 0;
+            }
+            h4 {
+                @extend %text-h2;
+                font-size: 20px;
+                color: #95959D;
+                margin: 0;
+            }
+        }
+
+        .auction-body_text_time {
+            border: 1px solid black;
+            background-color: black;
+            border-radius: 40px;
+            color: white;
+            font-family: Mulish;
+            font-size: 20px;
+            font-weight: 700;
+            display: inline-flex;
+            align-items: center;
+            padding: 5px 20px 5px 20px;
+            width: 370px;
+            height: 174px;
+            h5 {
+                margin: 0;
+            }
+
+            .auction-body_text_time_numbers {
+                display: inline-flex;
+                align-items: center;
+                gap: 20px;
+                font-family: Mulish;
+                font-size: 48px;
+                font-weight: 700;
+                p {
+                    margin: 0;
+                }
+            }
+            .auction-body_text_time_time {
+                display: inline-flex;
+                align-items: center;
+                gap: 20px;
+                p {
+                    margin: 0;
+                }   
+            }
+
+            .auction-body_text_time-foto {
+                margin-left: 40px;
+                img {
+                    width: 70%;
+                }
+            }
+
+        }
+
+    }
+
+    .auction-body_text_button {
+
+        button {
+            font-family: Mulish;
+            color: black;
+            border: 5px solid #46F4DB;
+            gap: 10px;
+            border-radius: 40px;
+            padding: 25px 54px 25px 54px;
+            background-color: white;
+            font-weight: 700;
+            font-size: 20px;
+        }
+
+        button:hover {
+            background-color: #46F4DB;
+        }
+        
+    }
+}
+
+%text-h2 {
+    font-weight: 700;
+    font-family: Mulish;
+}
+
+@media screen and (max-width: 1120px) {
+    .auction {
+        width: 864px;
+        margin: 0 80px 0 80px;
+
+        .auction-body_text_stavka-time {
+            justify-content: left;
+            flex-direction: column;
+        }
+    }
+
+}

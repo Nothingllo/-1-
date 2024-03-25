@@ -1,0 +1,30 @@
+.footer {
+    background-color: #46F4DB;    
+    img {
+        width: 100%;
+    }
+
+    .footer-menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 100px;
+        padding: 20px;
+    }
+
+    .footer-list ul li {
+        display: inline-flex;
+        list-style: none;
+        padding: 10px;
+        text-decoration: none;
+        font: 700 20px Mulish;
+        color: black;  
+    }
+    
+    .footer-list ul li:hover {
+        border: 2px solid black;
+    }
+}
+
+
+
